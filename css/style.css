@@ -1,0 +1,75 @@
+body {
+    background-color:#FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cards-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-top: 2px;
+
+}
+.container {
+    width: 1200px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.cards {
+    width: 396px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* padding: 4px;*/
+   /* margin-right: px;*/
+    
+}
+
+.search {
+   width: 1200px;
+   height: 60px;
+}
+
+a {
+    color: #0000EE;
+}
+
+button {
+    background-color: #f0f0f0;
+    padding: 1px 6px;
+}
+
+.fs-16px {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fs-13px {
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-gray {
+    background-color: rgb(218, 218, 218);
+}
+
+.bg-blue {
+    background-color: lightskyblue;
+}
